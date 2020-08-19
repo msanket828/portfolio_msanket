@@ -224,9 +224,7 @@ span{
   margin: 50px auto;
 }
 
-.contact .container h3 {
-  font-size: 25px;
-}
+.contact .container h3 { font-size: 25px; }
 
 .contact__data p {
   font-size: 14px;
@@ -275,13 +273,9 @@ footer {
   transition: all .2s ease;
 }
 
-.social-icons li {
-  padding: 0 2%;
-}
+.social-icons li { padding: 0 2%; }
 
-.social-link:hover {
-  color: #4cb2ec;
-}
+.social-link:hover { color: #4cb2ec; }
 
 .form-group {
   display: flex;
@@ -302,8 +296,7 @@ footer {
   align-self: flex-start;
 }
 
-.danger {
-  visibility: visible;
+.danger { visibility: visible;
   color: #f00;
 }
 
@@ -314,8 +307,8 @@ footer {
   background: #fff;
   bottom: 7%;
   right: 2%;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -331,9 +324,7 @@ footer {
   font-weight: 900;
 }
 
-.hide-top {
-  display: none;
-}
+.hide-top { display: none; }
 
 /* media query starts here */
 
@@ -342,19 +333,18 @@ footer {
     position: fixed;
     background-color: rgb(125, 194, 252);
     z-index: 200000;     
-  }
-  .nav-item {
-    margin: 0;
-  }  
+  } 
+  .nav-item { margin: 0; }  
 }
 
 @media only screen and (max-width: 768px) {
-  .banner__detail {
-    text-align:center;
+  .banner__detail { text-align:center; }
+  .banner { padding: 180px 0; }
+
+  .display-4 {
+    font-size: 35px;
   }
-  .banner {
-    padding: 180px 0;
-  }
+  .social-icons li { padding: 0 5%; }
   .skills-graph h3 { font-size: 15px; }
   .skills-graph span { font-size: 15px; }
 }
