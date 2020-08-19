@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Template</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="contanier">
+    <!-- header starts here -->
+    <header id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand text-white text-uppercase" href="#">Sanket</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#header">Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#profession__section">Profession</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio__section">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact__section">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- haeder ends here -->
+    <main>
+      <!-- banner starts here -->
+      <div class="banner">
+        <div class="container">
+          <div class='banner__detail p-3'>
+            <h2 class="display-3 text-white font-weight-bold">I am <br>Sanket mane.</h2>
+            <p class="font-weight-light text-uppercase text-secondary">web developer</p>
+            <div class="banner__detail__btn pt-4">
+              <a href='assets/resume__sanket.doc' title="Download CV"
+                class="btn-primary py-2 px-4 text-uppercase rounded">download cv</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner ends here -->
+      <!-- profession section starts here -->
+      <section class="profession" id="profession__section">
+        <div class="profession__detail text-center">
+          <h3 class="display-4 text-white text-uppercase font-weight-bold">profession</h3>
+          <p class="font-weight-light text-uppercase text-white"> my knowledge level in web development</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-10 mx-auto">
+              <ul class="skills-graph p-0">
+                <li class="li_wrapper my-4">
+                  <div class="html">html<span>80%</span></div>
+                </li>
+                <li class="li_wrapper my-4">
+                  <div class="css">css<span>70%</span></div>
+                </li>
+                <li class="li_wrapper my-4">
+                  <div class="javascript">javascript<span>65%</span></div>
+                </li>
+                <li class="li_wrapper  my-4">
+                  <div class="php">php<span>55%</span></div>
+                </li>
+                <li class="li_wrapper my-4">
+                  <div class="sql">sql<span>50%</span></div>
+                </li>
+                <li class="li_wrapper my-4">
+                  <div class="react">React js<span>55%</span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- profession section ends here -->
+      <!-- portfolio section starts here -->
+      <section class="portfolio" id="portfolio__section">
+        <div class="portfolio__detail text-center">
+          <h3 class="display-4 text-white text-uppercase font-weight-bold">portfolio</h3>
+          <p class="font-weight-light text-uppercase text-white"> my recent works</p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class=" col-xl-4 col-lg-5 col-md-6 col-sm-8 col-xs-8 mx-auto">
+              <ul class="d-flex justify-content-between align-item-center tab_links">
+                <li><a href="#FIXME" class="all tabActive text-uppercase text-white py-1 px-2">all</a></li>
+                <li><a href="#FIXME" class="html+css+js text-uppercase text-white py-1 px-2">html+css+js</a></li>
+                <li><a href="#FIXME" class="js text-uppercase text-white py-1 px-2">javascript</a></li>
+              </ul>              
+            </div>
+          </div>
+        </div>        
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all html+css+js position-relative portfolio__work">
+                <img src="./images/gymer.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/gymer-responsive-website-html-css-js-/" title="Work"
+                    target="_blank" class="text-capitalize text-white">Template</a>
+                  <span class="text-center px-2">Irure ex aliqua in anim ullamco enim cupidatat in do occaecat nisi ea
+                    dolore.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all html+css+js position-relative portfolio__work">
+                <img src="./images/velocity.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/velocity/" title="Work" target="_blank"
+                    class="text-capitalize text-white">Template</a>
+                  <span class="text-center px-2">Labore exercitation Lorem nisi sint.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all html+css+js position-relative portfolio__work">
+                <img src="./images/hielo.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/hielo-Template-html-css-js-/" title="Work" target="_blank"
+                    class="text-capitalize text-white">Template</a>
+                  <span class="text-center px-2">Sit qui culpa cillum enim cillum elit fugiat sit enim id ad irure
+                    sunt.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/searchbox_on_click.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-searchList/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js searchbox</a>
+                  <span class="text-center px-2">Proident aute nostrud cillum occaecat.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/accordian.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-accordian/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js accordian</a>
+                  <span class="text-center px-2">Magna ut laborum ea eiusmod.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/modal.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-modal/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js modal</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/filtertab.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-filterTab/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js filtertab</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/basic counter.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-basic-counter/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js basic counter</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/slideshowimage.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-slideshowImage/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js imgeslideshow</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/tab.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-tab/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js tabs</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/counter.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-normalCounter/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js counter</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/readMore_readLess.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-readMore_readLess/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js ReadMore/ReadLess</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/lightbox_content.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-contentLightbox/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js lightbox context</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/img_lightbox.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-imageLightbox/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js img lightbox</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all js position-relative portfolio__work">
+                <img src="./images/digital_clock.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/js-digitalClock/" title="Work" target="_blank"
+                    class="text-capitalize text-white">js digital_clock</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>     
+            <div class="col-xl-4 col-lg-4 my-3 col-md-6 col-sm-10 mx-sm-auto ">
+              <div class="all html+css+js position-relative portfolio__work">
+                <img src="./images/rapid_bootstrap_template.png" alt="first work" class="img-fluid">
+                <div
+                  class="position-absolute portfolio__work__detail d-flex justify-content-center align-item-center flex-column">
+                  <a href="https://msanket828.github.io/Rapid-bootstrap-js/" title="Work" target="_blank"
+                    class="text-capitalize text-white">Template</a>
+                  <span class="text-center px-2">Sit laborum tempor non ullamco dolore in quis aute aliquip incididunt
+                    ea adipisicing Lorem.</span>
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </section>
+      <!-- portfolio section ends her -->
+      <!-- contact section starts here -->
+      <section class="contact" id="contact__section">
+        <div class="container">
+          <div class="row d-flex justify-content-center align-item-center">
+            <div class="col-md-5 col-sm-10 my-4 contact__data">
+              <h3 class="text-uppercase text-white font-weight-bold mb-3">Contact Me</h3>
+              <p class="text-white font-weight-light">Ipsum aliqua enim excepteur adipisicing. Id excepteur in aliquip
+                esse sint commodo aute aute excepteur. Ullamco cupidatat consectetur officia sint do Lorem id Lorem
+                cillum enim fugiat voluptate non mollit. Voluptate excepteur non do duis nostrud nisi cupidatat commodo
+                reprehenderit qui. </p>
+              <div class="contact__details d-flex justify-content-between align-item-center flex-column">
+                <span class="contact__details__info">
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:sanketmane159@gmail.com" target="_top" title="Mail me">sanketmane159@gmail.com</a>
+                </span>
+                <span class="contact__details__info">
+                  <i class="fas fa-mobile"></i>
+                  <a href="tel:9082675567" title="Mail me">9082675567</a>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-10 my-2 contact__form">
+              <form id="myform" action="goto.html">
+                <div class="form-group">
+                  <input type="text" placeholder="Enter Fullname" id="name" class="form-control" autocomplete="off">
+                  <span class="none text-center">error</span>
+                </div>
+                <div class="form-group">
+                  <input type="email" placeholder="Enter Email" id="email" class="form-control" autocomplete="off">
+                  <span class="none text-center">error</span>
+                </div>
+                <div class="form-group">
+                  <input type="number" placeholder="Enter Contact no" id="contactno" class="form-control"
+                    autocomplete="off">
+                  <span class="none text-center">error</span>
+                </div>
+                <div class="form-group">
+                  <textarea name="textarea" id="textarea" cols="65" rows="3" placeholder="Enter Your Message" f
+                    class="form-control" autocomplete="off"></textarea>
+                  <span class="none text-center">error</span>
+                </div>
+                <input type="submit" name="" id="submit" value="submit" class="btn btn-block btn-secondary">
+            </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- contact section ends here -->
+    </main>
+    <footer>
+      <div class="container w-50">
+        <span class="top hide-top"></span>
+        <ul class="social-icons text-center">
+          <li class="d-inline-block">
+            <a href="https://www.instagram.com/sa_k_t/" class="social-link" target="_blank" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="d-inline-block">
+            <a href="https://www.facebook.com/sanket.mane.9634/" class="social-link" target="_blank" title="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="d-inline-block">
+            <a href="https://www.linkedin.com/in/sanket-mane-566920143/" class="social-link" target="_blank"
+              title="Linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="d-inline-block">
+            <a href="https://github.com/msanket828" class="social-link" target="_blank" title="Github">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- script files -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
