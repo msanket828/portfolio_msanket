@@ -121,11 +121,10 @@ header {
 .html,
 .javascript,
 .sql,
-.react {width: 20%;}
+.react {width: 25%;}
 
 .php1,.css1,.html1,.javascript1,.sql1,.react1{ 	
-  transition:2s;
-  /* border-radius: 10px;     */
+  transition:2s; 
 }
 .php1 { width: 55%}
 .css1{ width:70%; }
@@ -346,17 +345,17 @@ footer {
   }  
   .social-icons li { padding: 0 5%; }
   .skills-graph h3 { font-size: 15px; }
-  .skills-graph span { font-size: 15px; }  
+  .skills-graph span { font-size: 15px; }   
   .php,
   .css,
   .html,
   .javascript,
   .sql,
-  .react {opacity: 0;}
-  .php1 { width: 55%; opacity: 1; }
-  .css1{ width:70%; opacity: 1; }
-  .html1{	width:80%; opacity: 1; }
-  .javascript1{	width:65%; opacity: 1; }
-  .sql1{ width:50%; opacity: 1;	}
-  .react1 { width: 55%; opacity: 1;}
+  .react {width: 40%;}
+  .php1 { width: 55%}
+  .css1{ width:70%; }
+  .html1{	width:80%; }
+  .javascript1{	width:65%; }
+  .sql1{ width:50%;	}
+  .react1 { width: 55%;}
 }
