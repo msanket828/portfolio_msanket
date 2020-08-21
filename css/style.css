@@ -208,8 +208,6 @@ span{
 }
 
 .tab_links a { transition: border .2s ease;}
-
-
 .tab_links a.tabActive {
   outline: 1px solid skyblue;  
 }
@@ -366,5 +364,9 @@ footer {
   }
   .li_wrapper>div>span {
     font-size: 12px;
+  }
+  .tab_links {
+    width: 70%;
+    margin: 0 auto;
   }
 }
